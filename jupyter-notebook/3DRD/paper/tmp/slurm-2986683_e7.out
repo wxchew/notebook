@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/home/chew/notebook/jupyter-notebook/3DRD/paper/tmp/slurm-pftb0gy3.py", line 16, in <module>
+    retval = singlerun(job, 1, tid)
+  File "/home/chew/notebook/jupyter-notebook/3DRD/paper/tmp/slurm-pftb0gy3.py", line 12, in singlerun
+    data = ecell4.util.run_simulation(**job)
+  File "/home/chew/ecell4/build/local/lib/python3.6/site-packages/ecell-4.1.4-py3.6-linux-x86_64.egg/ecell4/util/simulation.py", line 223, in run_simulation
+    sim.run(t[-1], observers)
+  File "meso.pyx", line 942, in ecell4.meso.MesoscopicSimulator.run
+ValueError: the time must be positive.

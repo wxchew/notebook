@@ -1,0 +1,4 @@
+#!/bin/bash
+export LD_LIBRARY_PATH=/home/chew/ecell4/build/local/lib
+export PYTHONPATH=/home/chew/notebook/jupyter-notebook:/home/chew/ecell4/build/local/lib/python3.6/site-packages:/home/chew/.local/lib/python3.6/site-packages
+python3 /home/chew/notebook/jupyter-notebook/tmp/slurm-5fhejluw.py
